@@ -9,6 +9,13 @@
 
   <name>proyecto</name>
   <url>http://maven.apache.org</url>
+  <!--Paarte añadida de chart gpt-->
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.7.5</version> <!-- Cambia esta versión según tu preferencia -->
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -51,5 +58,17 @@
       <version>0.0.2</version>
       <scope>test</scope>
     </dependency>
+     <dependency>
+	 	<groupId>org.springframework.boot</groupId>
+	 	<artifactId>spring-boot-starter-data-jpa</artifactId>
+	 </dependency>
+	 <dependency>
+	 	<groupId>org.apache.derby</groupId>
+	 	<artifactId>derby</artifactId>
+	 </dependency>
+	 <dependency>
+	 	<groupId>org.apache.derby</groupId>
+	 	<artifactId>derbytools</artifactId>
+	 </dependency>
   </dependencies>
 </project>
