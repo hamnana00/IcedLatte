@@ -4,6 +4,7 @@ public class Ejemplo {
 
 	public static void main(String[] args) {
 		System.out.println("Prueba de github desde eclipse");
+		System.out.println("Por favor, funciona");
 
 	}
 

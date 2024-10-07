@@ -16,7 +16,7 @@
     <version>2.7.5</version> <!-- Cambia esta versión según tu preferencia -->
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
-
+  <!--Hsta aqui solucion dadad por chatgpt-->
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
